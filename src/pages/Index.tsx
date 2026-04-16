@@ -132,7 +132,7 @@ export default function Index() {
           <img
             src="https://cdn.poehali.dev/projects/1580d816-d482-4e90-88b0-1ec5c36b5987/bucket/d991fa50-6da7-4b3a-bdc3-d44f1fc24e02.png"
             alt="Prim Rooms Apartments"
-            className="h-14 w-auto object-contain"
+            className="h-28 w-auto object-contain"
           />
           <nav className="hidden md:flex gap-4">
             {navLinks.map(([label, id]) => (
