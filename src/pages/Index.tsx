@@ -129,7 +129,11 @@ export default function Index() {
         style={{ background: "rgba(247,246,242,0.96)", backdropFilter: "blur(10px)", borderColor: "#e0ded8" }}
       >
         <div className="max-w-[1100px] mx-auto px-4 flex items-center justify-between py-[10px] gap-3">
-          <span className="font-bold tracking-[0.12em] uppercase text-sm">PRIM ROOMS</span>
+          <img
+            src="https://cdn.poehali.dev/projects/1580d816-d482-4e90-88b0-1ec5c36b5987/bucket/d991fa50-6da7-4b3a-bdc3-d44f1fc24e02.png"
+            alt="Prim Rooms Apartments"
+            className="h-9 w-auto object-contain"
+          />
           <nav className="hidden md:flex gap-4">
             {navLinks.map(([label, id]) => (
               <button
@@ -608,7 +612,12 @@ export default function Index() {
       <footer id="contacts" className="pt-6 pb-5 scroll-mt-20" style={{ background: "#222", color: "#f5f5f5" }}>
         <div className="max-w-[1100px] mx-auto px-4 grid md:grid-cols-[1.2fr_0.8fr] gap-6 items-start">
           <div>
-            <div className="font-bold tracking-[0.12em] uppercase text-sm mb-2">PRIM ROOMS APARTMENTS</div>
+            <img
+              src="https://cdn.poehali.dev/projects/1580d816-d482-4e90-88b0-1ec5c36b5987/bucket/d991fa50-6da7-4b3a-bdc3-d44f1fc24e02.png"
+              alt="Prim Rooms Apartments"
+              className="h-10 w-auto object-contain mb-2"
+              style={{ filter: "brightness(0) invert(1)" }}
+            />
             <p className="text-[13px] mb-1.5" style={{ color: "#b8b6b0" }}>Сеть апартаментов во Владивостоке с бесконтактным заселением.</p>
             <p className="text-[13px] mb-1">Телефон: <a href="tel:+79502928900" className="hover:underline">+7 (950) 29‑28‑900</a></p>
             <p className="text-[13px] mb-1">E‑mail: <a href="mailto:info@primrooms.ru" className="hover:underline">info@primrooms.ru</a></p>
